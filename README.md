@@ -4,8 +4,7 @@ This repository contains the KiCad circuit design for this project.
 
 ## Components
 
-- Microcontroller: STM32F107VCT6
-- Ethernet PHY: Realtek RTL8211F-CG
+- Microcontroller: Microchip PIC18F97J60
 - PoE Controller: Onsemi NCP1095DBR2
 - Constant Current Drivers: TI LM3405A
 - LEDs: Lumiled Rebels (x5)

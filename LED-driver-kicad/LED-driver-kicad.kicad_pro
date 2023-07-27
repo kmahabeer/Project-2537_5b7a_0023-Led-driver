@@ -475,6 +475,14 @@
     [
       "e5b9dcdb-df0c-4418-90b7-c161982c6f0e",
       "Temp"
+    ],
+    [
+      "359e4c60-3d39-46c5-bd25-b25d83369b39",
+      "Ethernet"
+    ],
+    [
+      "9127cd83-cae7-424d-ad3b-8a9e0439da28",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}

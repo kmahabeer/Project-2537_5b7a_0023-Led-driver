@@ -1,0 +1,3 @@
+[submodule "LED-driver-kicad/library"]
+	path = LED-driver-kicad/library
+	url = git@github.com:kmahabeer/kicad-library.git

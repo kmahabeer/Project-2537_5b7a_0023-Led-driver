@@ -5,4 +5,6 @@
   (lib (name "RTL8211F-CG")(type "KiCad")(uri "${KIPRJMOD}/lib/RTL8211F-CG/RTL8211F-CG.kicad_sym")(options "")(descr ""))
   (lib (name "25AA02E64-I/SN")(type "KiCad")(uri "${KIPRJMOD}/lib/25AA02E64-ISN/25AA02E64-ISN.kicad_sym")(options "")(descr ""))
   (lib (name "PIC18F97J60-IPF")(type "KiCad")(uri "${KIPRJMOD}/lib/PIC18F97J60-IPF/PIC18F97J60-IPF.kicad_sym")(options "")(descr ""))
+  (lib (name "Abracon_ARJM11C7-114-BA-EW2")(type "KiCad")(uri "C:/Users/Kevin/Projects/kicad-library/symbols/Connector_RJ45_Abracon_ARJM11C7-114-BA-EW2.kicad_sym")(options "")(descr ""))
+  (lib (name "Microchip_PD70224ILQ-TR")(type "KiCad")(uri "C:/Users/Kevin/Projects/kicad-library/symbols/Rectifier_Microchip_PD70224ILQ-TR.kicad_sym")(options "")(descr ""))
 )

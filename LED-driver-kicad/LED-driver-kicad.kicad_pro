@@ -477,8 +477,16 @@
       "Ethernet"
     ],
     [
+      "21b4adef-5629-4a8b-8f2a-398551c789e3",
+      "Power"
+    ],
+    [
       "9127cd83-cae7-424d-ad3b-8a9e0439da28",
       "Microcontroller"
+    ],
+    [
+      "250319e1-deb8-4d57-8ee9-fb5c0c792a75",
+      "LEDs"
     ]
   ],
   "text_variables": {}

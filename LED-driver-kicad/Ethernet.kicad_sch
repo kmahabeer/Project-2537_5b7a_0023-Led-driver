@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Photogrammetry Rig - LED Driver")
+    (date "2023-08-02")
+    (rev "0.1.0")
+  )
+
   (lib_symbols
     (symbol "Connector_RJ45_Abracon_ARJM11C7-114-BA-EW2:ARJM11C7-114-BA-EW2_1" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "J1" (at 0 29.21 0)
@@ -2168,18 +2174,9 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 6872c4a9-29a9-46a2-acfe-2f69934f7c77)
   )
-  (text "Level shifting not necessary\nsince MCU operates at 3.3V"
-    (at 146.685 107.315 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 91fccbc0-c1eb-4fa7-8d60-7eaa8fe8fb03)
-  )
   (text "Ethernet PHY" (at 105.41 19.05 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid a8bd919b-aaa0-4307-9d39-b58d6d01eb40)
-  )
-  (text "VC2+/- is spare (07/19 11:19PM)\n" (at 43.18 19.05 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b0365d2d-5ed8-464d-b49b-3539fee707b9)
   )
   (text "VDD and VDDPLL" (at 113.665 29.845 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

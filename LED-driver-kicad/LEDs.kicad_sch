@@ -1549,16 +1549,12 @@
     (uuid be1928f3-5f67-4e83-8c94-e3a1f494849b)
   )
 
-  (text "Blue" (at 156.845 24.765 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18ab4b77-b74e-4414-acf4-8a51662fa43f)
-  )
   (text "Replace this N-Channel\nMOSFET with a cheaper\nversion"
     (at 102.87 59.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b2d3e7a-291e-478c-a2b3-2a0a3117fde6)
   )
-  (text "RED LED" (at 20.955 22.86 0)
+  (text "Red LED" (at 20.955 22.86 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 2717a39a-b5e1-4017-8dd5-62c94baec6a9)
   )
@@ -1566,15 +1562,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 45b01198-247f-4dd8-bb6c-f306f4703390)
   )
-  (text "Amber" (at 156.845 27.305 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 493ab9e5-cdc9-4eaf-a769-6f578240b153)
-  )
   (text "Freewheeling diode:\nBAT42LS-Q" (at 87.63 27.305 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 62a415cd-94cd-4ef1-8c50-d4bb0dada0de)
   )
-  (text "BLUE LED" (at 147.955 54.61 0)
+  (text "Blue LED" (at 147.955 54.61 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 6972a150-1bc6-470c-a013-f0f548760e62)
   )
@@ -1588,15 +1580,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8bc70a5a-3743-4863-a582-90d71b5d69c0)
   )
-  (text "Green" (at 156.845 22.225 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 90d65dc1-9925-41db-97df-b6dbb93fc7cf)
-  )
   (text "Does EN and DIM need to be pulled up with 100k?" (at 21.59 86.995 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 912698e8-ee06-48d9-9e86-8e40c19bb4b6)
   )
-  (text "GREEN LED" (at 20.955 105.41 0)
+  (text "Green LED" (at 20.955 105.41 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 964391c9-c71b-447f-88d9-f89c615b0ceb)
   )
@@ -1608,10 +1596,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbcf79c7-b7b1-48aa-963b-0c2edf184f5c)
   )
-  (text "Polarizer Enable / Disable" (at 156.845 32.385 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c047041e-6514-4bac-96fe-b25cc05b1456)
-  )
   (text "C_LED" (at 81.28 47.625 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5aca544-172a-4e05-b833-304bae112595)
@@ -1620,22 +1604,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7776702-72c1-45cb-b3bf-26e7642cb061)
   )
-  (text "White" (at 156.845 29.845 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cdd96f5a-cd81-4460-9660-9bc2f970df82)
-  )
   (text "CT" (at 239.395 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d8975307-042b-4fbc-a270-45ad177db552)
   )
 
-  (global_label "MCU_WHITE_LED" (shape input) (at 155.575 31.115 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1940fb48-540e-4cc3-8763-45f8a4849451)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 137.6523 31.115 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "MCU_PWM3_OUT" (shape input) (at 165.1 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4de64ede-1bf6-4151-8a57-7d562034e8f0)
@@ -1650,24 +1623,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "MCU_CCP2" (shape input) (at 155.575 26.035 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5e25ea26-a7da-4213-bd04-443b5ac015b7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.5508 26.035 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "MCU_PWM5_OUT" (shape input) (at 38.1 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6fbc81c4-e9cb-4d35-ad14-c3c9928410ad)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 20.1168 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "MCU_CCP1" (shape input) (at 155.575 28.575 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid bcede112-6f36-4348-b182-af2b732cfc14)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.5508 28.575 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1693,6 +1652,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R21") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1720,6 +1682,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R23") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R39") (unit 1)
+        )
       )
     )
   )
@@ -1745,6 +1710,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R5") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1772,6 +1740,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C32") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C41") (unit 1)
+        )
       )
     )
   )
@@ -1797,6 +1768,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C34") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C43") (unit 1)
         )
       )
     )
@@ -1824,6 +1798,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R4") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R40") (unit 1)
+        )
       )
     )
   )
@@ -1849,6 +1826,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C2") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -1885,6 +1865,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "U7") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "U12") (unit 1)
+        )
       )
     )
   )
@@ -1912,6 +1895,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "Q3") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "Q6") (unit 1)
+        )
       )
     )
   )
@@ -1937,6 +1923,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D28") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -1964,6 +1953,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "L4") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "L8") (unit 1)
+        )
       )
     )
   )
@@ -1989,6 +1981,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C3") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -2016,6 +2011,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D27") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D48") (unit 1)
+        )
       )
     )
   )
@@ -2041,6 +2039,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R22") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -2068,6 +2069,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C6") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C42") (unit 1)
+        )
       )
     )
   )
@@ -2093,6 +2097,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR051") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR060") (unit 1)
+        )
       )
     )
   )
@@ -2117,6 +2124,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR043") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -2144,6 +2154,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D12") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D37") (unit 1)
+        )
       )
     )
   )
@@ -2169,6 +2182,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R34") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2205,6 +2221,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "U5") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "U11") (unit 1)
+        )
       )
     )
   )
@@ -2230,6 +2249,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R31") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -2257,6 +2279,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D20") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D38") (unit 1)
+        )
       )
     )
   )
@@ -2282,6 +2307,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D29") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -2309,6 +2337,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D18") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D33") (unit 1)
+        )
       )
     )
   )
@@ -2333,6 +2364,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR042") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2360,6 +2394,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R33") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R45") (unit 1)
+        )
       )
     )
   )
@@ -2385,6 +2422,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D15") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -2413,6 +2453,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "Q2") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "Q5") (unit 1)
+        )
       )
     )
   )
@@ -2439,6 +2482,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R32") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R44") (unit 1)
+        )
       )
     )
   )
@@ -2463,6 +2509,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR041") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -2490,6 +2539,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D4") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D35") (unit 1)
+        )
       )
     )
   )
@@ -2515,6 +2567,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C19") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -2542,6 +2597,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D30") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D51") (unit 1)
+        )
       )
     )
   )
@@ -2568,6 +2626,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D6") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D32") (unit 1)
+        )
       )
     )
   )
@@ -2593,6 +2654,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D21") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -2629,6 +2693,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "U2") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "U10") (unit 1)
+        )
       )
     )
   )
@@ -2655,6 +2722,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C18") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C45") (unit 1)
+        )
       )
     )
   )
@@ -2679,6 +2749,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR044") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -2706,6 +2779,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D16") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D42") (unit 1)
+        )
       )
     )
   )
@@ -2730,6 +2806,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR03") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2756,6 +2835,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR050") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR059") (unit 1)
+        )
       )
     )
   )
@@ -2780,6 +2862,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR052") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -2807,6 +2892,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D22") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D43") (unit 1)
+        )
       )
     )
   )
@@ -2832,6 +2920,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C17") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -2859,6 +2950,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "L6") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "L9") (unit 1)
+        )
       )
     )
   )
@@ -2884,6 +2978,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C36") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -2911,6 +3008,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "L7") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "L10") (unit 1)
+        )
       )
     )
   )
@@ -2936,6 +3036,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D5") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -2964,6 +3067,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "Q1") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "Q4") (unit 1)
+        )
       )
     )
   )
@@ -2988,6 +3094,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "#PWR024") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -3015,6 +3124,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D3") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D34") (unit 1)
+        )
       )
     )
   )
@@ -3040,6 +3152,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C33") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -3067,6 +3182,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R20") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R38") (unit 1)
+        )
       )
     )
   )
@@ -3092,6 +3210,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D17") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -3119,6 +3240,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D24") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D45") (unit 1)
+        )
       )
     )
   )
@@ -3144,6 +3268,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D19") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -3171,6 +3298,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R35") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R47") (unit 1)
+        )
       )
     )
   )
@@ -3196,6 +3326,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D26") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -3223,6 +3356,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D23") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D44") (unit 1)
+        )
       )
     )
   )
@@ -3248,6 +3384,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "D25") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -3275,6 +3414,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C35") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C39") (unit 1)
+        )
       )
     )
   )
@@ -3301,6 +3443,9 @@
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "R30") (unit 1)
         )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "R41") (unit 1)
+        )
       )
     )
   )
@@ -3326,6 +3471,9 @@
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/250319e1-deb8-4d57-8ee9-fb5c0c792a75"
           (reference "C20") (unit 1)
+        )
+        (path "/2b071084-2ab6-4896-84cc-45b211479417/b9376bb1-65c2-486f-9413-68de3cd30605"
+          (reference "C47") (unit 1)
         )
       )
     )

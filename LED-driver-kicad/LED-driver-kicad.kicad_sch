@@ -76,6 +76,23 @@
     )
   )
 
+  (sheet (at 215.9 63.5) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 255 0 1.0000))
+    (uuid b9376bb1-65c2-486f-9413-68de3cd30605)
+    (property "Sheetname" "LEDs - amber and white" (at 215.9 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LEDs-amber_white.kicad_sch" (at 215.9 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LED-driver-kicad"
+        (path "/2b071084-2ab6-4896-84cc-45b211479417" (page "6"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

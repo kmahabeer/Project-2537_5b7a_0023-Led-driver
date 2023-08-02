@@ -487,6 +487,10 @@
     [
       "250319e1-deb8-4d57-8ee9-fb5c0c792a75",
       "LEDs"
+    ],
+    [
+      "b9376bb1-65c2-486f-9413-68de3cd30605",
+      "LEDs - amber and white"
     ]
   ],
   "text_variables": {}

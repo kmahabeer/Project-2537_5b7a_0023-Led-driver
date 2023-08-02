@@ -1635,7 +1635,7 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 71.12 53.975 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08c1004c-8f38-4766-a9e0-f1447e5b566d)
-    (property "Reference" "D10" (at 73.025 55.245 90)
+    (property "Reference" "D4" (at 73.025 55.245 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 73.025 52.705 90)
@@ -1658,7 +1658,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D10") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1667,7 +1667,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.965 50.8 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 137b3a85-0f34-4436-9797-fe977e476f77)
-    (property "Reference" "R16" (at 99.695 49.53 0)
+    (property "Reference" "R12" (at 99.695 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 99.695 52.07 0)
@@ -1684,7 +1684,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R16") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1728,7 +1728,7 @@
           (reference "U1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1737,7 +1737,7 @@
   (symbol (lib_id "power:GND") (at 98.425 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 173359f5-07c7-47ea-b8d6-3d7971606ce6)
-    (property "Reference" "#PWR049" (at 98.425 177.165 0)
+    (property "Reference" "#PWR027" (at 98.425 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.425 174.625 0)
@@ -1753,7 +1753,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
   (symbol (lib_id "Device:R_Small") (at 98.425 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25734dfa-85a0-4f32-a1b7-f9446c8f9600)
-    (property "Reference" "R29" (at 99.695 164.465 0)
+    (property "Reference" "R20" (at 99.695 164.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 99.695 167.005 0)
@@ -1779,7 +1779,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R29") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -1788,7 +1788,7 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 71.12 61.595 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 310f22e4-fbec-4865-9ffd-5ccb2b9c3e5d)
-    (property "Reference" "D11" (at 73.025 60.325 90)
+    (property "Reference" "D6" (at 73.025 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 73.025 62.865 90)
@@ -1811,7 +1811,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D11") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1820,7 +1820,7 @@
   (symbol (lib_id "Device:R_Small") (at 98.425 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3dfdced5-985e-4858-8abd-9087b2adea36)
-    (property "Reference" "R26" (at 99.695 113.665 0)
+    (property "Reference" "R17" (at 99.695 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 99.695 116.205 0)
@@ -1837,7 +1837,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R26") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1846,7 +1846,7 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 71.12 32.385 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3eeec115-6c00-4d5e-adea-548539d03b0c)
-    (property "Reference" "D9" (at 73.025 33.655 90)
+    (property "Reference" "D1" (at 73.025 33.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 73.025 31.115 90)
@@ -1869,7 +1869,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D9") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1878,7 +1878,7 @@
   (symbol (lib_id "power:GND") (at 34.29 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46949439-0949-41ce-a74d-1278c5426de1)
-    (property "Reference" "#PWR010" (at 34.29 109.855 0)
+    (property "Reference" "#PWR019" (at 34.29 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 107.315 0)
@@ -1894,7 +1894,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
   (symbol (lib_id "Device:C_Small") (at 111.76 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46980754-a444-4f40-a045-28e7297fb57b)
-    (property "Reference" "C12" (at 114.3 104.7813 0)
+    (property "Reference" "C15" (at 114.3 104.7813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 114.3 107.3213 0)
@@ -1920,7 +1920,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1929,7 +1929,7 @@
   (symbol (lib_id "power:+3.3V") (at 119.38 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47911ab2-cc20-495f-be03-6d9d45030c65)
-    (property "Reference" "#PWR045" (at 119.38 98.425 0)
+    (property "Reference" "#PWR018" (at 119.38 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 119.38 90.805 0)
@@ -1945,7 +1945,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1954,7 +1954,7 @@
   (symbol (lib_id "Device:R_Small") (at 98.425 106.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 511ec467-6818-4264-8121-30fe77bda38d)
-    (property "Reference" "R25" (at 99.695 104.775 0)
+    (property "Reference" "R16" (at 99.695 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 99.695 107.315 0)
@@ -1971,7 +1971,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R25") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1980,7 +1980,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 149.225 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51e83310-b7d5-4ec6-b57e-f02128f807d3)
-    (property "Reference" "C14" (at 32.385 147.955 0)
+    (property "Reference" "C17" (at 32.385 147.955 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 32.385 150.495 0)
@@ -1997,7 +1997,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C14") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2032,7 +2032,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.985 32.385 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b7657ea-ab49-4b63-835e-33ba88446875)
-    (property "Reference" "R19" (at 132.715 31.115 0)
+    (property "Reference" "R10" (at 132.715 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "25k" (at 132.715 33.655 0)
@@ -2049,7 +2049,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R19") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2058,7 +2058,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.355 98.425 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 681dbda3-8dc3-4e1c-9235-7443fee0dcd3)
-    (property "Reference" "R24" (at 45.085 97.155 0)
+    (property "Reference" "R15" (at 45.085 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 45.085 99.695 0)
@@ -2075,7 +2075,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R24") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2084,7 +2084,7 @@
   (symbol (lib_id "power:GND") (at 73.025 159.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c0dd4fa-b7d7-4e1e-a4a6-f8302c34dae2)
-    (property "Reference" "#PWR047" (at 73.025 165.735 0)
+    (property "Reference" "#PWR026" (at 73.025 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.025 163.195 0)
@@ -2100,7 +2100,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2137,7 +2137,7 @@
   (symbol (lib_id "power:GND") (at 34.29 154.305 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fa19bd3-4861-4fa2-8bf4-faf357a7edd9)
-    (property "Reference" "#PWR046" (at 34.29 160.655 0)
+    (property "Reference" "#PWR024" (at 34.29 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 158.115 0)
@@ -2153,7 +2153,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2162,7 +2162,7 @@
   (symbol (lib_id "Device:D_Bridge_+A-A") (at 46.99 59.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73bcc6bd-cb8c-4b78-b779-ba7a0e8eff5b)
-    (property "Reference" "D7" (at 53.975 62.23 0)
+    (property "Reference" "D5" (at 53.975 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Bridge_+A-A" (at 57.785 64.135 0)
@@ -2181,7 +2181,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2190,7 +2190,7 @@
   (symbol (lib_id "Device:R_Small") (at 127.635 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 767cd28d-739f-4f67-9bf1-3f1f92823cb1)
-    (property "Reference" "R17" (at 128.905 55.88 0)
+    (property "Reference" "R14" (at 128.905 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30.9" (at 128.905 58.42 0)
@@ -2207,7 +2207,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R17") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2216,7 +2216,7 @@
   (symbol (lib_id "power:GND") (at 73.025 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b8ab42c-85cc-43ec-9203-10aeea8cc081)
-    (property "Reference" "#PWR09" (at 73.025 114.935 0)
+    (property "Reference" "#PWR021" (at 73.025 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.025 112.395 0)
@@ -2232,7 +2232,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2241,7 +2241,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.355 149.225 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8038df26-4fbc-485f-a4ac-f666d1e10bc0)
-    (property "Reference" "R27" (at 45.085 147.955 0)
+    (property "Reference" "R18" (at 45.085 147.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 45.085 150.495 0)
@@ -2258,7 +2258,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R27") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -2267,7 +2267,7 @@
   (symbol (lib_id "Device:C_Small") (at 75.565 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 818e2ea8-b2fa-4257-987c-a5a2f29ec20a)
-    (property "Reference" "C11" (at 75.565 88.265 90)
+    (property "Reference" "C13" (at 75.565 88.265 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 75.565 90.805 90)
@@ -2284,7 +2284,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2293,7 +2293,7 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 71.12 40.005 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84bc09ae-c125-45f2-ad16-b16afda78444)
-    (property "Reference" "D8" (at 73.025 38.735 90)
+    (property "Reference" "D3" (at 73.025 38.735 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 73.025 41.275 90)
@@ -2316,7 +2316,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D8") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2325,7 +2325,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 850f49ab-c3c7-4b3b-aba4-74da5ba34185)
-    (property "Reference" "C4" (at 113.03 34.2963 0)
+    (property "Reference" "C11" (at 113.03 34.2963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 113.03 36.8363 0)
@@ -2342,7 +2342,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C4") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2351,7 +2351,7 @@
   (symbol (lib_id "Regulator_Voltage_TI_LV2862XLVDDCR:LV2862XLVDDCR") (at 59.69 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96142207-6a72-4197-8951-64e15d6e0c3e)
-    (property "Reference" "U1" (at 52.07 87.63 0)
+    (property "Reference" "U3" (at 52.07 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LV2862XLVDDCR" (at 58.42 110.49 0)
@@ -2372,7 +2372,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2381,7 +2381,7 @@
   (symbol (lib_id "Device:C_Small") (at 111.76 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98fd1cf1-3f8f-4818-bc0b-ba1118495ecc)
-    (property "Reference" "C16" (at 114.3 155.5813 0)
+    (property "Reference" "C18" (at 114.3 155.5813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 114.3 158.1213 0)
@@ -2398,7 +2398,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C16") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2427,7 +2427,7 @@
           (reference "D6") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D13") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2455,7 +2455,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2464,7 +2464,7 @@
   (symbol (lib_id "power:GND") (at 83.82 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a40e52b4-27a3-4dc3-804a-3cb07c7faa1e)
-    (property "Reference" "#PWR012" (at 83.82 111.125 0)
+    (property "Reference" "#PWR020" (at 83.82 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 108.585 0)
@@ -2480,7 +2480,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2489,7 +2489,7 @@
   (symbol (lib_id "Regulator_Voltage_TI_LV2862XLVDDCR:LV2862XLVDDCR") (at 59.69 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a63f0919-532f-43ae-9bb0-8d9f6afc7e59)
-    (property "Reference" "U3" (at 52.07 138.43 0)
+    (property "Reference" "U4" (at 52.07 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LV2862XLVDDCR" (at 58.42 161.29 0)
@@ -2510,7 +2510,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2519,7 +2519,7 @@
   (symbol (lib_id "Device:C_Small") (at 75.565 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0830001-140b-48e8-b227-76c19d949a77)
-    (property "Reference" "C15" (at 75.565 139.065 90)
+    (property "Reference" "C16" (at 75.565 139.065 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 75.565 141.605 90)
@@ -2536,7 +2536,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -2545,7 +2545,7 @@
   (symbol (lib_id "power:GND") (at 184.785 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf743ec8-da6f-4c29-b98d-4e1cc98514de)
-    (property "Reference" "#PWR023" (at 184.785 73.66 0)
+    (property "Reference" "#PWR017" (at 184.785 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.785 72.39 0)
@@ -2561,7 +2561,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2590,7 +2590,7 @@
           (reference "D6") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "D14") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2599,7 +2599,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.785 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc928663-8781-4090-95b6-a06bef8f42a2)
-    (property "Reference" "C5" (at 187.325 52.705 0)
+    (property "Reference" "C12" (at 187.325 52.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 187.325 55.245 0)
@@ -2616,7 +2616,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C5") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2625,7 +2625,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.965 40.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e196454a-1042-4323-a1a1-fb0813d8c50b)
-    (property "Reference" "R12" (at 99.695 39.37 0)
+    (property "Reference" "R11" (at 99.695 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 99.695 41.91 0)
@@ -2642,7 +2642,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2651,7 +2651,7 @@
   (symbol (lib_id "Device:R_Small") (at 123.19 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e410f512-28ff-4e19-9415-285a01377779)
-    (property "Reference" "R18" (at 121.92 55.88 0)
+    (property "Reference" "R13" (at 121.92 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60k4" (at 121.92 58.42 0)
@@ -2668,7 +2668,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R18") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2677,7 +2677,7 @@
   (symbol (lib_id "power:GND") (at 98.425 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e460267b-d185-4a90-8ff6-ab55bd4bb849)
-    (property "Reference" "#PWR019" (at 98.425 126.365 0)
+    (property "Reference" "#PWR022" (at 98.425 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 98.425 123.825 0)
@@ -2693,7 +2693,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2728,7 +2728,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e945edf6-bc15-49b0-8643-97584605335a)
-    (property "Reference" "C10" (at 32.385 97.155 0)
+    (property "Reference" "C14" (at 32.385 97.155 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 32.385 99.695 0)
@@ -2745,7 +2745,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "C10") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2754,7 +2754,7 @@
   (symbol (lib_id "power:GND") (at 83.82 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec222912-1a32-4e50-bfb9-12d7dc4f894b)
-    (property "Reference" "#PWR048" (at 83.82 161.925 0)
+    (property "Reference" "#PWR025" (at 83.82 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 159.385 0)
@@ -2770,7 +2770,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2779,7 +2779,7 @@
   (symbol (lib_id "Device:R_Small") (at 98.425 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f616aebf-fb98-4310-94a2-911e2e0178c3)
-    (property "Reference" "R28" (at 99.695 155.575 0)
+    (property "Reference" "R19" (at 99.695 155.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "357k" (at 99.695 158.115 0)
@@ -2796,7 +2796,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/21b4adef-5629-4a8b-8f2a-398551c789e3"
-          (reference "R28") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )

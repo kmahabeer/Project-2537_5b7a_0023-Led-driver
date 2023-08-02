@@ -947,7 +947,7 @@
           (reference "R2") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R3") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -976,7 +976,7 @@
           (reference "C1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "C29") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1032,7 +1032,7 @@
           (reference "R2") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R2") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1060,7 +1060,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "power:GND") (at 154.94 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72ec13c1-b7aa-48ea-a866-fd16b7627b87)
-    (property "Reference" "#PWR039" (at 154.94 120.015 0)
+    (property "Reference" "#PWR033" (at 154.94 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 117.475 0)
@@ -1085,7 +1085,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1113,7 +1113,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1142,7 +1142,7 @@
           (reference "R1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R1") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1151,7 +1151,7 @@
   (symbol (lib_id "power:GND") (at 123.825 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0025334-7886-4d81-9423-5cecf50e9906)
-    (property "Reference" "#PWR018" (at 123.825 73.66 0)
+    (property "Reference" "#PWR030" (at 123.825 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.825 71.12 0)
@@ -1167,7 +1167,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1176,7 +1176,7 @@
   (symbol (lib_id "Device:LED_Small_Filled") (at 61.595 93.98 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a536a9ef-feac-4199-aa1e-6ed11f7b933a)
-    (property "Reference" "D1" (at 59.69 92.71 90)
+    (property "Reference" "D9" (at 59.69 92.71 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GREEN" (at 59.69 95.25 90)
@@ -1193,7 +1193,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "D1") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1202,7 +1202,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 47.625 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5170031-3cee-42d1-b862-ef7df1744f42)
-    (property "Reference" "J3" (at 45.085 25.4 0)
+    (property "Reference" "J2" (at 45.085 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 28.575 27.94 0)
@@ -1222,7 +1222,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1251,7 +1251,7 @@
           (reference "C1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "C1") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1279,7 +1279,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
           (reference "R2") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R40") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1317,7 +1317,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 55.88 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eedc07f0-3d37-4e72-bb2e-ad588fde30da)
-    (property "Reference" "J2" (at 56.515 33.655 0)
+    (property "Reference" "J3" (at 56.515 33.655 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Socket" (at 64.77 36.195 0)
@@ -1334,7 +1334,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1343,7 +1343,7 @@
   (symbol (lib_id "MCU_Microchip_PIC1616f1829-ISL:PIC16F18026-ISL") (at 154.94 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7af81a3-50e5-428b-9fcc-21c52e1e0ed4)
-    (property "Reference" "U6" (at 135.89 64.77 0)
+    (property "Reference" "U5" (at 135.89 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PIC16F18026-ISL" (at 134.62 102.87 0)
@@ -1372,7 +1372,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1381,7 +1381,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbbbaa58-1b03-4fac-85a5-6c6ca8f279bc)
-    (property "Reference" "#PWR017" (at 154.94 56.515 0)
+    (property "Reference" "#PWR028" (at 154.94 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 154.94 48.895 0)
@@ -1397,7 +1397,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )

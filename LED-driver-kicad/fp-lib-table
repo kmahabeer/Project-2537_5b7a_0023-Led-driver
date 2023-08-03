@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KM-Connector_RJ")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Connector_RJ.pretty")(options "")(descr ""))
+  (lib (name "KM-Inductor_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Inductor_SMD.pretty")(options "")(descr ""))
+  (lib (name "KM-LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-LED_SMD.pretty")(options "")(descr ""))
+  (lib (name "KM-Package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Package_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name "KM-Package_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Package_SOT_SMD.pretty")(options "")(descr ""))
+)

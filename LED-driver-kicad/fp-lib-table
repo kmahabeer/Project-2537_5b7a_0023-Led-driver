@@ -5,4 +5,5 @@
   (lib (name "KM-LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-LED_SMD.pretty")(options "")(descr ""))
   (lib (name "KM-Package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Package_DFN_QFN.pretty")(options "")(descr ""))
   (lib (name "KM-Package_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Package_SOT_SMD.pretty")(options "")(descr ""))
+  (lib (name "KM-Diode_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/footprints/KM-Diode_SMD")(options "")(descr ""))
 )

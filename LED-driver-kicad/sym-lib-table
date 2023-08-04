@@ -1,9 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Microchip_PD70224ILQ-TR")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Rectifier_Microchip_PD70224ILQ-TR.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_PoE_Microchip_PD70210A")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Interface_PoE_Microchip_PD70210A.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_Microchip_PIC1616f1829-ISL")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/MCU_Microchip_PIC1616f1829-ISL.kicad_sym")(options "")(descr ""))
-  (lib (name "Memory_Microchip_25AA02E64T-IOT")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Memory_Microchip_25AA02E64T-IOT.kicad_sym")(options "")(descr ""))
   (lib (name "Driver_LED_Microchip_MIC3205YML-TR")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Driver_LED_Microchip_MIC3205YML-TR.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_RJ45_Abracon_ARJM11C7-114-BA-EW2")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Connector_RJ45_Abracon_ARJM11C7-114-BA-EW2.kicad_sym")(options "")(descr ""))
   (lib (name "Regulator_Voltage_TI_LV2862XLVDDCR")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Regulator_Voltage_TI_LV2862XLVDDCR.kicad_sym")(options "")(descr ""))

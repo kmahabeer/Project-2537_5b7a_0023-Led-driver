@@ -2520,7 +2520,7 @@
     (property "Value" "25MHz" (at 128.27 80.645 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD_HandSoldering" (at 125.73 79.375 0)
+    (property "Footprint" "Crystal:Crystal_SMD_HC49-SD" (at 125.73 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 79.375 0)

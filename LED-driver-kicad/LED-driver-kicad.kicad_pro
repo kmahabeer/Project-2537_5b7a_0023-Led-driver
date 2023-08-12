@@ -34,18 +34,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -58,9 +58,29 @@
           "gap": 0.3,
           "via_gap": 0.5,
           "width": 0.3
+        },
+        {
+          "gap": 0.127,
+          "via_gap": 0.5,
+          "width": 0.3825
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|103276400|86516400|119e75b1-8693-4f4b-9a6d-630be8f8490b|a06bc79d-e9f2-457a-85d9-107942b15804",
+        "clearance|103536406|87016400|119e75b1-8693-4f4b-9a6d-630be8f8490b|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|103674800|102612000|198524fe-6b29-4366-b5fe-a63613358680|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|109220000|69955600|2ecc3cb1-1b06-4726-bd65-d84500ed85c6|436de31f-c4ca-4c28-8546-4489902cdb33",
+        "clearance|109479500|69955600|2ecc3cb1-1b06-4726-bd65-d84500ed85c6|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|111926842|103217600|fd3ec62c-0bf7-4682-9f99-82304ee93daf|e9e2a5ca-8461-4405-bcc1-4360c17bb576",
+        "clearance|112314800|102708547|fd3ec62c-0bf7-4682-9f99-82304ee93daf|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|129648042|103378000|a7b8741d-b2b6-4699-b165-b2c6a7156d50|a66bc1af-2a81-41e7-9ebc-27d1d7632e46",
+        "clearance|130044000|102378000|a7b8741d-b2b6-4699-b165-b2c6a7156d50|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|146706400|102813700|9e058e22-f423-489d-a12d-b241e36c899d|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|146706400|103073200|9e058e22-f423-489d-a12d-b241e36c899d|77e044e6-580e-4381-8b6e-9ffb48cbd80f",
+        "clearance|150032538|94549000|40296f9f-6b18-4be7-a8b1-2fcd9ed6a688|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|150389150|78187046|ab47a713-d352-4e42-9199-f0c7971e5895|52930fbf-6473-444b-b7eb-4442c9b1f0d7",
+        "clearance|157818000|64099000|0dc4c68d-ce4a-4512-8468-8bc93b80a28b|52930fbf-6473-444b-b7eb-4442c9b1f0d7"
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +106,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -117,7 +137,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_connection": 0.127,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.32999999999999996,
         "min_hole_to_hole": 0.5,
@@ -125,11 +145,11 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.19999999999999998,
-        "min_text_height": 1.0,
+        "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -178,7 +198,9 @@
       ],
       "track_widths": [
         0.0,
+        0.254,
         0.3,
+        0.3825,
         0.5
       ],
       "via_dimensions": [
@@ -189,6 +211,10 @@
         {
           "diameter": 0.7,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -201,7 +227,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1847850|1041400|31da555d-925d-4391-ab0b-23c1838f3b50|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -434,6 +462,40 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3825,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ethernet_PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -444,7 +506,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet/RJ45_RD*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "/Ethernet/RJ45_TD*"
+      },
+      {
+        "netclass": "Ethernet_PWR",
+        "pattern": "RJ45_VC*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

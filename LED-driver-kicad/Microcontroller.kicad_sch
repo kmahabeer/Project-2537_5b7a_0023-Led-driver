@@ -935,7 +935,7 @@
           (reference "R2") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R23") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -964,7 +964,7 @@
           (reference "C1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "C19") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1057,7 +1057,7 @@
   (symbol (lib_id "power:GND") (at 154.94 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72ec13c1-b7aa-48ea-a866-fd16b7627b87)
-    (property "Reference" "#PWR033" (at 154.94 120.015 0)
+    (property "Reference" "#PWR031" (at 154.94 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 117.475 0)
@@ -1073,7 +1073,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1101,7 +1101,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1139,7 +1139,7 @@
   (symbol (lib_id "power:GND") (at 123.825 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0025334-7886-4d81-9423-5cecf50e9906)
-    (property "Reference" "#PWR030" (at 123.825 73.66 0)
+    (property "Reference" "#PWR029" (at 123.825 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.825 71.12 0)
@@ -1155,7 +1155,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1190,13 +1190,13 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 238.125 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5170031-3cee-42d1-b862-ef7df1744f42)
-    (property "Reference" "J2" (at 235.585 69.85 0)
+    (property "Reference" "J4" (at 235.585 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Socket" (at 219.075 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" (at 238.125 81.28 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (at 238.125 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.125 81.28 0)
@@ -1210,7 +1210,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
           (reference "C1") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "C20") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1267,7 +1267,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
           (reference "R2") (unit 1)
         )
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "R24") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1305,13 +1305,13 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 246.38 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eedc07f0-3d37-4e72-bb2e-ad588fde30da)
-    (property "Reference" "J3" (at 247.015 78.105 0)
+    (property "Reference" "J5" (at 247.015 78.105 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Socket" (at 255.27 80.645 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical" (at 246.38 83.82 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 246.38 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 246.38 83.82 0)
@@ -1322,7 +1322,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1369,7 +1369,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbbbaa58-1b03-4fac-85a5-6c6ca8f279bc)
-    (property "Reference" "#PWR028" (at 154.94 56.515 0)
+    (property "Reference" "#PWR030" (at 154.94 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 154.94 48.895 0)
@@ -1385,7 +1385,7 @@
     (instances
       (project "LED-driver-kicad"
         (path "/2b071084-2ab6-4896-84cc-45b211479417/9127cd83-cae7-424d-ad3b-8a9e0439da28"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )

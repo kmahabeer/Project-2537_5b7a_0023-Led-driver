@@ -14572,7 +14572,7 @@
   (gr_text "TO PROGRAM\nCONNECT JUMPER\nB/W SOCKETS" (at 128.524 99.6696) (layer "F.SilkS") (tstamp 3e7db485-8f40-4a0e-9349-2f5383e58c60)
     (effects (font (size 0.8 1) (thickness 0.153) bold) (justify left bottom))
   )
-  (gr_text "2537_5b7a_0023\nLED DRIVER\nv0.1" (at 94.234 52.578) (layer "F.SilkS" knockout) (tstamp ab75e0a8-19dc-4986-ade9-382f95980eac)
+  (gr_text "2537_5b7a_0023\nLED DRIVER\nv1.0" (at 94.234 52.578) (layer "F.SilkS" knockout) (tstamp ab75e0a8-19dc-4986-ade9-382f95980eac)
     (effects (font (size 1 1) (thickness 0.153) bold) (justify left bottom))
   )
 
